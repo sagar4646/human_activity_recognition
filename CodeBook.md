@@ -14,39 +14,38 @@ the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals 
 producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
+* These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
-*tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+  * tBodyAcc-XYZ
+  * tGravityAcc-XYZ
+  * tBodyAccJerk-XYZ
+  * tBodyGyro-XYZ
+  * tBodyGyroJerk-XYZ
+  * tBodyAccMag
+  * tGravityAccMag
+  * tBodyAccJerkMag
+  * tBodyGyroMag
+  * tBodyGyroJerkMag
+  * fBodyAcc-XYZ
+  * fBodyAccJerk-XYZ
+  * fBodyGyro-XYZ
+  * fBodyAccMag
+  * fBodyAccJerkMag
+  * fBodyGyroMag
+  * fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+* The set of variables that were estimated from these signals are: 
+  * mean(): Mean value;
+  * std(): Standard deviation;
 
-mean(): Mean value
-std(): Standard deviation
+* Subject: id of the persons on whom the trial was conducted.
+    * 1,2,3,....,28,29,30. 
 
-Subject: id of the persons on whom the trial was conducted.
-  1,2,3,....,28,29,30. 
-
-Activity: what the subject was performing.
-  1 WALKING
-  2 WALKING_UPSTAIRS
-  3 WALKING_DOWNSTAIRS
-  4 SITTING
-  5 STANDING
-  6 LAYING
+* Activity: what the subject was performing.
+  * WALKING
+  * WALKING_UPSTAIRS
+  * WALKING_DOWNSTAIRS
+  * SITTING
+  * STANDING
+  * LAYING
